@@ -1,0 +1,37 @@
+{
+  "name": "Magnet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard --fix",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:wikiccu/magnet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wikiccu/magnet/issues"
+  },
+  "standard": {
+    "globals": [
+      "clients"
+    ],
+    "ignore": [
+      "**/node_modules/**"
+    ]
+  },
+  "homepage": "https://github.com/wikiccu/magnet#readme",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "axios": "^0.26.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "redis": "^4.0.3",
+    "socket.io": "^4.4.1"
+  }
+}

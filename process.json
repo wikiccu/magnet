@@ -1,0 +1,13 @@
+{
+  "apps": [
+    {
+      "name": "Magnet",
+      "script": "./server.js",
+      "exec_mode": "fork",
+      "node_args": "--max_old_space_size=8192",
+      "watch": true,
+      "ignore_watch": ["node_modules","package-lock.json",".git"],
+      "autorestart": false  
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+# Environment variables
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Documentation
+docs
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Dependency directories
+node_modules
+
+# Optional npm cache directory
+.npm
+
+#pm2 config
+.pm2
+ 
+
